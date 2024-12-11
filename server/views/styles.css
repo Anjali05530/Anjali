@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #1de9b6, #1dc4e9);
+    color: #333;
+  }
+  header {
+    background: transparent;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #1de9b6;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    color: white;
+  }
+  
+  .hero .content {
+    max-width: 50%;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero h1 span {
+    color: hsl(247, 82%, 51%);
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .btn.primary {
+    background: #1dc4e9;
+    color: white;
+  }
+  
+  .btn.secondary {
+    background: white;
+    color: #1dc4e9;
+    border: 1px solid #1dc4e9;
+  }
+  
+  .btn:hover {
+    background: white;
+    color: #1de9b6;
+  }
+  
+  .illustration img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about, .portfolio, .services, .contact {
+    padding: 120px 10%;
+    text-align: center;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .projects, .service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project, .service {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 100px;
+    margin: 10px;
+    width: 250px;
+    color: white;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 20px;
+    background: #1dc4e9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background: #1de9b6;
+  }
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #1dc4e9;
+    color: white;
+  }
+  
